@@ -1,0 +1,20 @@
+{
+  "name": "opencli-deliveroo",
+  "version": "0.1.0",
+  "description": "Deliveroo UK adapter for opencli: browse restaurants and menus, manage the basket, and check out with a one-time confirm code.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "repository": "github:Eridanus-Multiverse/opencli-deliveroo",
+  "bin": {
+    "opencli-deliveroo": "install.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@jackwener/opencli": "^1.8.7"
+  }
+}
